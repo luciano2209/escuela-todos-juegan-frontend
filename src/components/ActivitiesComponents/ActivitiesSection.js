@@ -11,7 +11,7 @@ const activities = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
     imageUrl:
-      'https://live.staticflickr.com/65535/47800421801_28cff45766_c_d.jpg',
+      'https://live.staticflickr.com/4830/46347030011_44b5eeb313_c_d.jpg',
     features: [
       {text: 'Juegos recreativos',},
       {text: 'Juegos de agua',},
@@ -26,7 +26,7 @@ const activities = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
     imageUrl:
-      'https://live.staticflickr.com/65535/47800421801_28cff45766_c_d.jpg',
+      'https://live.staticflickr.com/4825/46129707434_5bb0995f76_c_d.jpg',
     features: [
       {text: 'Cumpleaños en club y particulares',},
       {text: 'Materiales varios',},
@@ -40,7 +40,7 @@ const activities = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
     imageUrl:
-      'https://live.staticflickr.com/65535/47800421801_28cff45766_c_d.jpg',
+      'https://live.staticflickr.com/7804/46129579434_6cdf6d86e9_c_d.jpg',
     features: [
       {text: 'Actividades ludicas, recreativas y deportivas',},
       {text: 'Profesor - Monitor',},
@@ -85,9 +85,9 @@ export default function ActivitiesSection() {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Actividades</h2>
-          <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          {/* <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
-          </p>
+          </p> */}
         </div>
         {isClicked &&
           <ActivityModal isClicked={isClicked} open={open} setOpen={setOpen}></ActivityModal>
@@ -102,7 +102,6 @@ export default function ActivitiesSection() {
                 <div className="flex-1">
                   <a href={activity.href} className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">{activity.title}</p>
-                    <p className="mt-3 text-base text-gray-500">{activity.description}</p>
                   </a>
                 </div>
               </div>

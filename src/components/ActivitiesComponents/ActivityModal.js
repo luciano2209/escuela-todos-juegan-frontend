@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-// import { XIcon } from '@heroicons/react/outline'
+import { XIcon } from '@heroicons/react/outline'
 
 
 export default function ActivityModal({open, setOpen, isClicked}) {
@@ -37,7 +37,7 @@ export default function ActivityModal({open, setOpen, isClicked}) {
             leaveFrom="opacity-100 translate-y-0 sm:scale-100"
             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
-            {/* <div >
+            <div >
                 <div className="hidden sm:block absolute top-0 right-0 pt-4 pr-4">
                   <button
                     type="button"
@@ -53,17 +53,17 @@ export default function ActivityModal({open, setOpen, isClicked}) {
                 {isClicked.title}
               </Dialog.Title>
               
-              {
+              {/* {
                 isClicked.features.map(_feature => {
                           
                   <p>{_feature.text}</p>             
                   
                 })
               }
-              <p>asdasd</p>   
+              <p>asdasd</p>    */}
       
             
-            </div> */}
+            </div>
           </Transition.Child>
         </div>
       </Dialog>
