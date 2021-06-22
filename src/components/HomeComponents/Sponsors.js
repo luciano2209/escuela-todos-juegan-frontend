@@ -1,3 +1,5 @@
+import LogoClubConecta from '../../assets/img/logoClubConecta.png'
+
 export default function Sponsors() {
   return (
     <div className="bg-blue-dark">
@@ -6,7 +8,7 @@ export default function Sponsors() {
         <div className="flow-root mt-8 lg:mt-10">
           <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
             <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-              <img className="h-20" src="http://www.clubconecta.cl/ClubConecta/img/logo.png" alt="Tuple" />
+              <img className="h-20" src={LogoClubConecta} alt="Tuple" />
             </div>
             <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
               <img className="h-24" src="https://tofuu.getjusto.com/orioneat-prod-resized/jHw6eGm66gXtNa7dM-x-500.webp" alt="Mirage" />

@@ -143,10 +143,10 @@ export default function CampusContact({phone, email}) {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-white">Informacion de Contacto</h3>
-              <p className="mt-6 text-base text-indigo-50 max-w-3xl">
+              {/* <p className="mt-6 text-base text-indigo-50 max-w-3xl">
                 Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor
                 lacus arcu.
-              </p>
+              </p> */}
               <dl className="mt-8 space-y-6">
                 <dt>
                   <span className="sr-only">Phone number</span>
@@ -207,7 +207,7 @@ export default function CampusContact({phone, email}) {
                       name="first_name"
                       id="first_name"
                       autoComplete="given-name"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-xl text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
@@ -221,7 +221,7 @@ export default function CampusContact({phone, email}) {
                       name="last_name"
                       id="last_name"
                       autoComplete="family-name"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-xl text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
@@ -235,7 +235,7 @@ export default function CampusContact({phone, email}) {
                       name="email"
                       type="email"
                       autoComplete="email"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-xl text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
@@ -254,7 +254,7 @@ export default function CampusContact({phone, email}) {
                       name="phone"
                       id="phone"
                       autoComplete="tel"
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-xl text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                       aria-describedby="phone-optional"
                     />
                   </div>
@@ -271,7 +271,7 @@ export default function CampusContact({phone, email}) {
                       id="message"
                       name="message"
                       rows={4}
-                      className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                      className="py-3 px-4 block w-full shadow-xl text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                       aria-describedby="message-max"
                       defaultValue={''}
                     />

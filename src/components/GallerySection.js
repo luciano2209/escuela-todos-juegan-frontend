@@ -13,7 +13,7 @@ const GallerySection = () => {
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Galeria</h1>
-          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+          {/* <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p> */}
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
           <div class="flex flex-wrap w-1/2">
@@ -24,7 +24,7 @@ const GallerySection = () => {
               <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://live.staticflickr.com/65535/47800348941_375c165c18_c_d.jpg"/>
             </div>
             <div class="md:p-2 p-1 w-full" data-aos="zoom-in">
-              <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://live.staticflickr.com/65535/47011183134_69ea726659_c_d.jpg"/>
+              <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://live.staticflickr.com/4835/46151517431_e2b6b9681c_h_d.jpg"/>
             </div>
           </div>
           <div class="flex flex-wrap w-1/2">
@@ -41,12 +41,9 @@ const GallerySection = () => {
         </div>
       </div>
     </section>
-    <section class="text-gray-600 body-font">
+    {/* <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
-        {/* <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-        </div> */}
+       
         <div class="flex flex-wrap -m-4">
           <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-in">
             <div class="flex relative">
@@ -110,7 +107,7 @@ const GallerySection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     </>
   )
 }

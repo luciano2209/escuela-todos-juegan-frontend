@@ -7,7 +7,7 @@ import CampusInscription from '../../components/CampusComponents/CampusInscripti
 const Activities = () => {
   return (
     <div>
-      <Hero img="https://live.staticflickr.com/4839/45649481354_80504be65f_k_d.jpg" title ="Actividades y Servicios" subTitle='Amet veniam commodo incididunt laborum sit.'/>
+      <Hero img="https://live.staticflickr.com/4839/45649481354_80504be65f_k_d.jpg" title ="Actividades y Servicios" subTitle=' '/>
       <ActivitiesSection/>
       <CampusInscription/>
       <br/>

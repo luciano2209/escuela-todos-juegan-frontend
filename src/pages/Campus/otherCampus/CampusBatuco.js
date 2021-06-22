@@ -36,15 +36,15 @@ const CampusBatuco = () => {
       <Hero 
         img="https://live.staticflickr.com/4838/32278310128_7de0df90a1_h_d.jpg"
         title="Sede Batuco"
-        subTitle="Aliqua ut quis ipsum amet."
+        subTitle=" "
       />      
       <br/>   
       <br/>   
-      <CampusHero img ="https://live.staticflickr.com/4906/45237522505_faaf74299c_h_d.jpg"sede={"Batuco"} textSede={"Non velit enim reprehenderit mollit elit do aliquip."}/>
+      <CampusHero img ="https://live.staticflickr.com/4906/45237522505_faaf74299c_h_d.jpg"sede={"Batuco"} textSede={" "}/>
       <CampusFeature sports={sports}/>
       <CampusInscription/>
       <CampusGallery />
-      <CampusContact phone={"+56 967448966"} email={"Example@example.com"}/>
+      <CampusContact phone={"+56 998334729"} email={"contacto_conecta@gmail.com"}/>
     </div>
   )
 }

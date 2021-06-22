@@ -52,11 +52,11 @@ const CampusConecta = () => {
       <Hero 
         img="https://live.staticflickr.com/4901/44555505710_a01f4f753b_k_d.jpg"
         title="Sede Conecta"
-        subTitle="Aliqua ut quis ipsum amet."
+        subTitle=" "
       />      
       <br/>     
       <br/>   
-      <CampusHero img ="https://live.staticflickr.com/4881/45237523815_7b5775abbe_c_d.jpg"sede={"Conecta"} textSede={"Adipisicing eu amet aliqua minim ut sit."}/>
+      <CampusHero img ="https://live.staticflickr.com/4881/45237523815_7b5775abbe_c_d.jpg"sede={"Conecta"} textSede={" "}/>
       <CampusFeature sports={sports}/>
       <CampusInscription/>
       <CampusGallery />

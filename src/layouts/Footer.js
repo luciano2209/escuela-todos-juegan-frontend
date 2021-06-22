@@ -1,3 +1,13 @@
+import logoTenis from '../assets/icon/Tenis.png'
+import logoMotricidad from '../assets/icon/Motricidad.png'
+import logoHockey from '../assets/icon/Hockey.png'
+import logoGimn from '../assets/icon/Gimn.png'
+import logoFutFem from '../assets/icon/FufFem.png'
+import logoFutMasc from '../assets/icon/FutMasc.png'
+import logoBox from '../assets/icon/Box.png'
+import logoAjedrez from '../assets/icon/AJedrez.png'
+import logo3eraEDAD from '../assets/icon/3raEDAD.png'
+
 const navigation = [
   {
     name: 'Facebook',
@@ -42,14 +52,25 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+            <a key={item.name} href={item.href} target="_blanck" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
         </div>
-        <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400">&copy; 2021 Escuela Todos Juegan. Todos los derechos reservados.</p>
+        <div className="flex flex-col items-center mt-8 md:mt-0 md:order-1">
+          {/* <p className="text-center text-base text-gray-400">&copy; 2021 Escuela Todos Juegan. Todos los derechos reservados.</p>  */}
+            <div className=" text-gray-400 hover:text-gray-500 sm:flex">          
+              <img src={logoTenis} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoMotricidad} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoHockey} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoFutFem} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoGimn} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoFutMasc} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoBox} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logoAjedrez} alt="#"className="h-16 w-16" aria-hidden="true" />
+              <img src={logo3eraEDAD} alt="#"className="h-16 w-16" aria-hidden="true" />
+            </div>
         </div>
       </div>
     </footer>

@@ -4,6 +4,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 import { Link } from 'react-router-dom'
 import Logo from '../assets/img/logo.png'
+import LogoWsp from '../assets/icon/whatsapp-logo-1.png'
+
 
 const navigation = [
   { name: 'Quienes Somos', href: '#', current: false, to:'/' },
@@ -106,27 +108,27 @@ export default function NavBar() {
                     </button>
                   </div>
                 </a>
-                <a href="https://www.facebook.com/escuelatodosjuegan">
-                  <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
+                <a href="https://www.facebook.com/escuelatodosjuegan" target="_blanck">
+                  <div className="ml-4 md:ml-4 md:flex-shrink-0 md:flex md:items-center">
                     <button className="bg-blue-dark p-1 rounded-full text-yellow hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blbg-blue-dark focus:ring-white">
                       {/* <span className="sr-only">View notifications</span> */}
                       <icons.iconFacebook className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
                 </a>
-                <a href="https://www.instagram.com/escuelatodosjuegan/">
-                  <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
+                <a href="https://www.instagram.com/escuelatodosjuegan/" target="_blanck">
+                  <div className="ml-2 md:ml-4 md:flex-shrink-0 md:flex md:items-center">
                     <button className="bg-blue-dark p-1 rounded-full text-yellow hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blbg-blue-dark focus:ring-white">
                       {/* <span className="sr-only">View notifications</span> */}
                       <icons.iconInstagram className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
                 </a>      
-                <a href="https://api.whatsapp.com/send?phone=56977653799&text=Tengo%20una%20duda">
-                  <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
+                <a href="https://api.whatsapp.com/send?phone=56977653799&text=Tengo%20una%20duda" target="_blanck">
+                  <div className="ml-2 md:ml-4 md:flex-shrink-0 md:flex md:items-center">
                     <button className="bg-blue-dark p-1 rounded-full text-yellow hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blbg-blue-dark focus:ring-white">
                       {/* <span className="sr-only">View notifications</span> */}
-                      <icons.iconFacebook className="h-6 w-6" aria-hidden="true" />
+                      <img src={LogoWsp} alt="#" className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
                 </a>       
